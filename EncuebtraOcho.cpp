@@ -1,10 +1,10 @@
-﻿#include <iostream>
-using namespace std;
+﻿#include <iostream> //libreria para entrada y salida
+using namespace std; //uso del espacio para nombres estandar
 
 int main() {
     int numero;
 
-    // Pedir un número al usuario
+    // mensaje de inicio del programa
     cout << "Ingresa un numero: ";
     cin >> numero;
 
@@ -14,6 +14,6 @@ int main() {
     } else {
         cout << "El numero no es ocho." << endl;
     }
-
+    //fin del programa
     return 0;
 }
